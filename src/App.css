@@ -1,0 +1,48 @@
+
+.App{
+  width:100%;
+  margin-top: 5%;
+}
+input{
+  margin-left: 5%;
+  width:25rem;
+  height:2rem;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+ul{
+   flex-direction: 'row';
+  align-items: center; 
+  height: 15%;
+display: flex;
+overflow: hidden;
+row-gap: 45rem;
+margin-top: 30%;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+li{
+  list-style: none;
+}
+.model{
+  display: flex;
+ flex-direction: row;
+
+}
+ img {
+  height:10%;
+  width:100%;
+  overflow: hidden;
+}
+.footer{
+color: blue;
+display: flex;
+margin-left: 4rem;
+gap: 5rem;
+}
